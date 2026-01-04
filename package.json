@@ -1,18 +1,18 @@
 {
   "name": "safar-ai-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend for The Safar AI",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Safar Punjani",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1"
+    "express": "^4.19.2"
   }
 }
